@@ -1,0 +1,85 @@
+<html>
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+ 
+<style>
+@font-face {
+    font-family: HelveticaNeueMed;
+    src: url(HelveticaNeueMed.ttf);
+}
+@font-face {
+    font-family: HelveticaNeueBd;
+    src: url(HelveticaNeueBd.ttf);
+}
+
+.name {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin:auto;
+  margin-top: 100px;
+  padding-bottom: 30px;
+}
+.menu {
+
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+
+}
+   /* -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+            transition: all 0.5s ease;*/
+}
+.ph {
+  width: 100%;
+  max-width: 700px;
+  padding-bottom: 20px;
+  padding: 0.6px;
+  align-items: center;
+     transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+
+}
+
+
+.ph:hover {
+      transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);;}
+
+
+</style>
+</head>
+
+<body>
+<main>
+  <div class="name"> TOUCH TO<br>EXPLORE</div>
+
+  <div class="menu">
+  <div class="ph"><a href="about.html" ><img src="romb-01.png" width=220px></a></div>
+  <div class="ph"><a href="portfolio.html" id="romb1"><img src="romb-02-01.png"width=220px></a></div>
+  <div class="ph"><a href="contatti.html" id="romb2"><img src="romb-03-01.png"width=220px></a></div>
+  </div>
+</main>
+</body>
+</html>

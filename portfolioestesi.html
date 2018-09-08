@@ -1,0 +1,311 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <style>
+        @font-face {
+            font-family: HelveticaNeueMed;
+            src: url(HelveticaNeueMed.ttf);
+        }
+        @font-face {
+            font-family: HelveticaNeueBd;
+            src: url(HelveticaNeueBd.ttf);
+        }
+        @font-face {
+            font-family: HelveticaNeue;
+            src: url(HelveticaNeue.ttf);
+        }
+        body {
+          background-image: none;
+          background-color: white;
+          background-size: 200%;
+        }
+        .menulink{
+            font-size: 1.5em;
+            font-family: HelveticaNeueMed;
+            color: #123977;
+            position: relative;
+            text-decoration: none;
+          }
+        .menulink:hover {
+          color: #FF48A3;
+        }
+      #work1 {
+          display: flex;
+          margin: auto;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+          margin-top: 50px;}
+
+      #work2 {
+              display: flex;
+              margin: auto;
+              flex-direction: row;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: space-between;
+              margin-top: 100px;}
+  #work3 {
+       display: flex;
+       margin: auto;
+       flex-direction: row;
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: space-between;
+       margin-top: 100px;}
+       #work4 {
+            display: flex;
+            margin: auto;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 100px;}
+#work5 {
+display: flex;
+margin: auto;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+margin-top: 100px;}
+
+#work6 {
+display: flex;
+margin: auto;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+margin-top: 100px;}
+
+     .namep {
+        flex-grow: 1;
+        flex-basis: auto;
+        width: 100%;
+        max-width: 700px;
+        align-items: flex-start;
+      }
+      .p {
+        margin-top: 50px;
+        flex-grow: 1;
+        flex-basis: auto;
+        width: 100%;
+        max-width: 700px;
+        align-items: flex-start;
+      }
+      .textp {
+        margin-top: 50px;
+        flex-grow: 1;
+        flex-basis: auto;
+        width: 100%;
+        max-width: 700px;
+        align-items: flex-start;
+      }
+      .m{
+
+        margin-top: 50px;
+        width: 49.5%;
+        max-width: 700px;
+        align-items:  center;
+      }
+
+
+</style>
+    </head>
+
+   
+<header>
+    <div id="navbar">
+    <div class="contenitore"><a href="home.html" class="menulink"><img src="menusign.png" width=50px></a></div>
+    <div class="contenitore"><a href="about.html" class="menulink">ABOUT</a></div>
+    <div class="contenitore"><a href="portfolio.html" class="menulink">PORTFOLIO</a></div>
+    <div class="contenitore"><a href="contatti.html" class="menulink">CONTACTS</a></div>
+      </div>
+</header>
+<body>
+<main> 
+    <style>
+        .modalDialog{
+            position:fixed;
+            top:0;
+            right:0;
+            bottom:0;
+            left: 0;
+            background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+        }    
+        .modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	
+}
+        .close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+        }
+a {
+  font-size: 1em;
+  font-family: HelveticaNeueBd;
+  color:#123977;
+}
+a:hover {
+  color: #FF48A3;
+}
+            
+
+
+    </style>
+<section class="blocco1">
+<div id="work1">
+<div class="namep" ><a href="#openModal">WATERCOLOR<br>PAINTING</a></div>
+<div id="openModal" class="modalDialog">
+    <div>
+    <a href="#close" title="close" class="close">X</a>
+        <p> Watercolor is my eternal love! I like the transparent trace of paint that it leaves on paper when you touch it for the first time. It is the most beautiful moment that you should keep till the end. 
+My acquaintance with it began in an Art school with classic still lifes and then continued on the summer plein air. Now one of my favorite themes are flowers!  </p>
+    </div>
+</div>
+<img class="p"  src="portfolio/1.jpg">
+<img class="p" src="portfolio/2.jpg">
+<img class="p" src="portfolio/3.jpg">
+<img class="p" src="portfolio/4.jpg">
+
+
+</div>
+
+
+
+<div id="work2">
+    <div class="namep" id=work2_2><a href="#openModal1">GRAPHIC<br>ARTS</a></div>
+<div id="openModal1" class="modalDialog">
+    <div>
+    <a href="#close" title="close" class="close">X</a>
+        <p>
+I collected here my favorite graphics from different years of Art school and college. The Voltaire's gypsum head, the San Marco Cathedral in Venice shading with a Chinese Ink.   </p>
+    </div>
+    </div>
+<img class="p" src="portfolio/a.jpg">
+<img class="p" src="portfolio/b.jpg">
+<img class="p" src="portfolio/c.jpg"> 
+</div>
+
+    
+
+<div id="work3">
+    <div class="namep"><a href="#openModal2">BRANDING</a></div>
+<div id="openModal2" class="modalDialog">
+    <div>
+    <a href="#close" title="close" class="close">X</a>
+        <p> 
+Group work for the Politecnico di Milano during the course "Metaprogetto". Rebranding of the company “Duesenberg”, collapsed in the last century. How would the company that produced the most elite cars in the past look now? Who would the people of “Duesenberg” be? We found the answers and developed a new brand strategy and a brand image for the company.    </p>
+    </div>
+    </div>
+
+<img class="p" src="portfolio/duesenberg/1a.jpg">
+<img class="p" src="portfolio/uno.jpg">
+<img class="m" src="portfolio/duesenberg/bb.jpg">
+<img class="m" src="portfolio/duesenberg/bb1.jpg">
+<img class="m" src="portfolio/duesenberg/1.jpg">
+<img class="m" src="portfolio/duesenberg/2.jpg">
+<img class="m" src="portfolio/duesenberg/a.jpg">
+<img class="m" src="portfolio/duesenberg/b.jpg">
+<img class="m" src="portfolio/duesenberg/c.jpg">
+<img class="m" src="portfolio/duesenberg/c1.jpg">
+<img class="m" src="portfolio/duesenberg/bm.jpg">
+<img class="m" src="portfolio/duesenberg/bm1.jpg">
+</div>
+
+<div id="work4">
+    <div class="namep"><a href="#openModal3">TYPOGRAPHY</a></div>
+    <div id="openModal3" class="modalDialog">
+    <div>
+    <a href="#close" title="close" class="close">X</a>
+        <p> 
+One of the tasks within the course of the "Typography" was to depict the song using only the words from it’s text. I chose the Scorpion’s song “Wind of Change”. Inspired by Soviet posters, I wanted to extend that time, despite the fact that the song is sung about its collapse.  
+Through this work I wanted to look at that (now it’s called a tragedy) time from a modern point of view. But all we know that “There are no ifs in history”.  </p>
+    </div>
+    </div>
+
+<img class="p" src="portfolio/1w.jpg">
+<img class="m" src="portfolio/2w.jpg">
+<img class="m" src="portfolio/3w.jpg">
+<img class="m" src="portfolio/4w.jpg">
+<img class="m" src="portfolio/5w.jpg">
+<img class="m" src="portfolio/6w.jpg">
+<img class="m" src="portfolio/7w.jpg">
+<img class="m" src="portfolio/9w.jpg">
+<img class="m" src="portfolio/10w.jpg">
+</div>
+
+<div id="work5">
+    <div class="namep"><a href="#openModal4">GRAPHIC<br>DESIGN</a></div>
+    <div id="openModal4" class="modalDialog">
+    <div>
+    <a href="#close" title="close" class="close">X</a>
+        <p> 
+This is one of my first works in graphic design in Art college. Design for airlines of my hometown - "Greene Air Line". The name, strategy and image of the airlines was developed by me.   </p>
+    </div>
+    </div>
+
+<img class="p" src="portfolio/g.jpg">
+<img class="m" src="portfolio/g6.jpg">
+<img class="m" src="portfolio/g7.jpg">
+<img class="m" src="portfolio/g8.jpg">
+<img class="m" src="portfolio/g9.jpg">
+</div>
+
+<div id="work6">
+    <div class="namep"><a href="#openModal5">3D DESIGN</a></div>
+<div id="openModal5" class="modalDialog">
+    <div>
+    <a href="#close" title="close" class="close">X</a>
+        <p> 
+Group work for the Politecnico di Milano during the course "Computer Graphic". “The Emperor's New Clothes” is a famous fairy tale which we illustrated in 3D. We have invented locations for actions and all characters. We also developed several games with the main characters from the fairy tale.    </p>
+    </div>
+    </div>
+<img class="p" src="portfolio/u.jpg">
+<img class="m" src="portfolio/u1.jpg">
+<img class="m" src="portfolio/u2.jpg">
+<img class="m" src="portfolio/u3.jpg">
+<img class="m" src="portfolio/u4.jpg">
+<img class="m" src="portfolio/u7.jpg">
+<img class="m" src="portfolio/u8.jpg">
+</div>
+
+
+<a href="#navbar"><div id="tornasu">^</div></a>
+    
+    </section>
+</main>
+</body>
+</html>

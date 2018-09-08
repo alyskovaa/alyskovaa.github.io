@@ -1,0 +1,129 @@
+<html>
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+<style>
+@font-face {
+    font-family: HelveticaNeueMed;
+    src: url(HelveticaNeueMed.ttf);
+}
+@font-face {
+    font-family: HelveticaNeueBd;
+    src: url(HelveticaNeueBd.ttf);
+}
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(HelveticaNeue.ttf);
+}
+
+@keyframes appear {
+from {opacity: 0;}
+to {opacity:1;}
+}
+
+.foto {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.foto:hover {
+  -webkit-filter: grayscale(100%);
+}
+    a:link {
+    color: lightcoral;
+}
+.flexbox{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ align-items: center;
+ justify-content: space-around;
+ margin:auto;
+ margin-top: 100px;
+ padding-bottom: 30px;
+}
+.foto img {
+  flex-grow: 1;
+  flex-basis: auto;
+  width: 50%;
+  max-width: 700px;
+  align-items: flex-end;
+}
+.name {
+  flex-grow: 1;
+  flex-basis: auto;
+  width: 50%;
+  max-width: 700px;
+  align-items: flex-end;
+}
+.info{
+ display: flex;
+ flex-direction: column;
+ flex-wrap: nowrap;
+ align-items: center;
+ justify-content: flex-start;
+ margin:auto;
+ padding-bottom: 55px;
+}
+.h1 {
+  flex-grow: 1;
+  flex-basis: auto;
+  width: 100%;
+  max-width: 700px;
+  align-items: flex-start;
+}
+.h2 {
+  margin-top: 30px;
+  flex-grow: 1;
+  flex-basis: auto;
+  width: 100%;
+  max-width: 700px;
+  align-items: flex-start;
+}
+.text {
+  margin-top: 30px;
+  flex-grow: 1;
+  flex-basis: auto;
+  width: 100%;
+  max-width: 700px;
+  align-items: flex-start;
+}
+
+</style>
+</head>
+
+<body>
+<header>
+<div id="navbar">
+<div class="contenitore"><a href="home.html" class="menulink"><img src="menusign.png" width=50px></a></div>
+<div class="contenitore"><a href="about.html" class="menulink">ABOUT</a></div>
+<div class="contenitore"><a href="portfolio.html" class="menulink">PORTFOLIO</a></div>
+<div class="contenitore"><a href="contatti.html" class="menulink">CONTACTS</a></div>
+  </div>
+</header>
+
+
+
+<main>
+
+<div class="flexbox">
+
+<div class="name">ALENA<br>LYSKOVA</div>
+<img class="foto" src="social icon/photo-01.png" width="350px" height="350px">
+</div>
+
+<div class="info">
+<div class="h1">Communication designer,<br> Artist.</div>
+<div class="h2">21 y.o<br>Russian Federation.</div>
+<div class="text"> Since childhood, I like what I do and I have never experienced the difficulty of choosing a future profession.
+At the age of 9, without exams I entered the Art School in my city, then I graduated from the Art College with a
+degree in Graphic Design and at the age of 18 I entered at the famous european university in Italy - Politecnico di Milano.
+Now I'm a student of Communication design and a freelancer.
+    <div class="h2"> <a href="CV_Lyskova.pdf" download>Download My CV</a></div>
+    </div>
+</div>
+</main>
+</body>
+</html>
